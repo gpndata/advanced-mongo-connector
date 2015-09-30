@@ -3,16 +3,14 @@
 var AdvancedConnectionManager = require('advanced-connection-manager');
 var MongoClient = require('mongodb').MongoClient;
 
-var mongo_connection_interface = {
-	connect: MongoClient.connect.bind(MongoClient),
-};
-
 /**
  * Constructor of mongo connector.
  * @constructor
  */
 function AdvancedMongoConnector() {
-	AdvancedMongoConnector.call(this, mongo_connection_interface);
+
+	//MongoClient implements connect method needed in our interface
+	AdvancedMongoConnector.call(this, MongoClient);
 }
 
 AdvancedMongoConnector.prototype = Object.create(AdvancedConnectionManager.prototype);
