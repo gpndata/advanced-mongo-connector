@@ -10,7 +10,7 @@ var MongoClient = require('mongodb').MongoClient;
 function AdvancedMongoConnector() {
 
 	//MongoClient implements connect method needed in our interface
-	AdvancedMongoConnector.call(this, {
+	AdvancedConnectionManager.call(this, {
 		connect: MongoClient.connect.bind(MongoClient),
 	});
 }
