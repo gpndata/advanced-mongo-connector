@@ -16,3 +16,5 @@ function AdvancedMongoConnector() {
 }
 
 AdvancedMongoConnector.prototype = Object.create(AdvancedConnectionManager.prototype);
+
+module.exports = AdvancedMongoConnector;

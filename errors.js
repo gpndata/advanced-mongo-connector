@@ -1,0 +1,1 @@
+module.exports = require('advanced-connection-manager/errors');
