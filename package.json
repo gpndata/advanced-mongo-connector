@@ -1,6 +1,6 @@
 {
   "name": "advanced-mongo-connector",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Child of AdvancedMongoConnector connecting to Mongo DB using node-mongodb-native.",
   "main": "index.js",
   "scripts": {
