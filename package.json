@@ -1,0 +1,27 @@
+{
+  "name": "advanced-mongo-connector",
+  "version": "0.0.1",
+  "description": "Child of AdvancedMongoConnector connecting to Mongo DB using node-mongodb-native.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo No tests specified && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpndata/advanced-mongo-connector.git"
+  },
+  "keywords": [
+    "mongo",
+    "connector"
+  ],
+  "author": "GPN DATA programmers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpndata/advanced-mongo-connector/issues"
+  },
+  "homepage": "https://github.com/gpndata/advanced-mongo-connector#readme",
+  "dependencies": {
+    "advanced-connection-manager": "0.0.2",
+    "mongodb": "^2.0.44"
+  }
+}
